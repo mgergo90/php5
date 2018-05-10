@@ -19,6 +19,7 @@ RUN LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php \
         libapache2-mod-php5 \
         php5-mcrypt \
         php5-sqlite \
+        php5-gd \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
